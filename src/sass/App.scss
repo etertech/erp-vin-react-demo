@@ -1,0 +1,46 @@
+// Wine logo color
+$wineIconcolor: lightblue;
+$sidebarWitdth: 350px;
+
+
+
+.text-goldenrod { color: $wineIconcolor;}
+header { height: 5rem; background-color: #F8F5F0; }
+header > h1 { font-weight: bolder; font-size: 2.4rem; margin: 0; }
+footer { height: 3rem; background-color: #F8F5F0; }
+footer > h6 { font-size: 1.2rem; margin: 0; }
+article { min-height: calc(100vh - 14.4rem); }
+
+a:hover { color: goldenrod;}
+
+.panel { background-color: #F8F5F0; }
+.text-goldenrod { color: goldenrod;}
+.text-darkgoldenrod { color: darkgoldenrod;}
+.display-none { display: none; }
+.h-content { height: fit-content; }
+.navbar-nav { flex-direction: unset; }
+.max-width-50-rem { max-width: 50rem; }
+
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex > div {
+  flex-grow: 1; /* Sidebar takes up 1 part */
+}
+
+.d-flex > article {
+  flex-grow: 2; /* Main content takes up 2 parts */
+}
+
+.sidebar {
+  width: $sidebarWitdth; /* or whatever width you prefer */
+}
+
+.filter-bar input,
+.filter-bar select,
+.filter-bar button {
+  margin-right: 10px; /* Ajoute une marge à droite de chaque élément */
+  margin-bottom: 10px; /* Ajoute une marge en bas de chaque élément */
+}

@@ -1,0 +1,64 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/material": "^5.14.7",
+    "@mui/x-data-grid": "^6.12.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/googlemaps": "^3.43.3",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.40",
+    "@types/react": "^18.2.19",
+    "@types/react-bootstrap": "^0.32.32",
+    "@types/react-dom": "^18.2.7",
+    "axios": "^1.5.0",
+    "bootstrap": "^5.3.1",
+    "bootswatch": "^5.3.1",
+    "filepond": "^4.30.4",
+    "moment": "^2.29.4",
+    "nanoid": "^4.0.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-filepond": "^7.1.2",
+    "react-google-places-autocomplete": "^4.0.1",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.65.1",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4",
+    "whatwg-fetch": "^3.6.17"
+  },
+  "scripts": {
+    "start": "PORT=443 HTTPS=true SSL_CRT_FILE=certificate.pem SSL_KEY_FILE=private-key.pem react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
